@@ -18,10 +18,12 @@ namespace SecondApplication
 
 			//Ask for First Name
 			Console.WriteLine("Please enter your first name");
-			var input = Console.ReadLine();
+			string firstName = Console.ReadLine();
 
 			//Greet user by name
-			Console.WriteLine($"Welcome: {input}");
+			Console.WriteLine($"Welcome: {firstName}");
+			Console.WriteLine("Application Terminated Successfully");
+			Console.ReadLine();
 		}
 	}
 }
