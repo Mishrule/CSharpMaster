@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="IntegerVariables.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="IntegerVariables.cs" />
+  </ItemGroup>
+
 </Project>
