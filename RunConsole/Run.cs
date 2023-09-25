@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Conditionals;
 
 namespace RunConsole
 {
@@ -11,7 +12,8 @@ namespace RunConsole
 	{
 		public static void Main()
 		{
-			SecondApp.Run();
+			//SecondApp.Run();
+			ConditionsAssignment.Run();
 		}
 	}
 }

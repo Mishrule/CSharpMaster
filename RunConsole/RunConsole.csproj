@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Conditionals\Conditionals.csproj" />
     <ProjectReference Include="..\OurSecondApplication\SecondApplication.csproj" />
   </ItemGroup>
 
