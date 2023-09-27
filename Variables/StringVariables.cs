@@ -18,14 +18,7 @@ namespace Variables
 
             Console.WriteLine($"Hello {firstName} {lastName}");
 
-
-
-
-
-
-
-
-
+            
         }
     }
 }
